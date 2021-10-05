@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/publicAwsABP/static/css/main.dbc80b53.chunk.css",
-    "main.js": "/publicAwsABP/static/js/main.65fa1a62.chunk.js",
-    "main.js.map": "/publicAwsABP/static/js/main.65fa1a62.chunk.js.map",
+    "main.js": "/publicAwsABP/static/js/main.9a017aa0.chunk.js",
+    "main.js.map": "/publicAwsABP/static/js/main.9a017aa0.chunk.js.map",
     "runtime-main.js": "/publicAwsABP/static/js/runtime-main.5ef0afdd.js",
     "runtime-main.js.map": "/publicAwsABP/static/js/runtime-main.5ef0afdd.js.map",
     "static/css/2.6cd54866.chunk.css": "/publicAwsABP/static/css/2.6cd54866.chunk.css",
@@ -13,13 +13,26 @@
     "index.html": "/publicAwsABP/index.html",
     "static/css/2.6cd54866.chunk.css.map": "/publicAwsABP/static/css/2.6cd54866.chunk.css.map",
     "static/css/main.dbc80b53.chunk.css.map": "/publicAwsABP/static/css/main.dbc80b53.chunk.css.map",
-    "static/js/2.e6983829.chunk.js.LICENSE.txt": "/publicAwsABP/static/js/2.e6983829.chunk.js.LICENSE.txt"
+    "static/js/2.e6983829.chunk.js.LICENSE.txt": "/publicAwsABP/static/js/2.e6983829.chunk.js.LICENSE.txt",
+    "static/media/ready.a090bba9.jpg": "/publicAwsABP/static/media/ready.a090bba9.jpg",
+    "static/media/slide1.e1a3dbe4.JPG": "/publicAwsABP/static/media/slide1.e1a3dbe4.JPG",
+    "static/media/slide10.fab6dc8e.JPG": "/publicAwsABP/static/media/slide10.fab6dc8e.JPG",
+    "static/media/slide11.3c97419d.JPG": "/publicAwsABP/static/media/slide11.3c97419d.JPG",
+    "static/media/slide12.9aaa117d.JPG": "/publicAwsABP/static/media/slide12.9aaa117d.JPG",
+    "static/media/slide2.8651e002.JPG": "/publicAwsABP/static/media/slide2.8651e002.JPG",
+    "static/media/slide3.51c3cf72.JPG": "/publicAwsABP/static/media/slide3.51c3cf72.JPG",
+    "static/media/slide4.06d8cb3f.JPG": "/publicAwsABP/static/media/slide4.06d8cb3f.JPG",
+    "static/media/slide5.a9e603eb.JPG": "/publicAwsABP/static/media/slide5.a9e603eb.JPG",
+    "static/media/slide6.f55f9bd9.JPG": "/publicAwsABP/static/media/slide6.f55f9bd9.JPG",
+    "static/media/slide7.8fc67c0f.JPG": "/publicAwsABP/static/media/slide7.8fc67c0f.JPG",
+    "static/media/slide8.183a104a.JPG": "/publicAwsABP/static/media/slide8.183a104a.JPG",
+    "static/media/slide9.18ddec8b.JPG": "/publicAwsABP/static/media/slide9.18ddec8b.JPG"
   },
   "entrypoints": [
     "static/js/runtime-main.5ef0afdd.js",
     "static/css/2.6cd54866.chunk.css",
     "static/js/2.e6983829.chunk.js",
     "static/css/main.dbc80b53.chunk.css",
-    "static/js/main.65fa1a62.chunk.js"
+    "static/js/main.9a017aa0.chunk.js"
   ]
 }
