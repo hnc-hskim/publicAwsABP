@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/publicAwsABP/static/css/main.dbc80b53.chunk.css",
+    "main.js": "/publicAwsABP/static/js/main.48768f8a.chunk.js",
+    "main.js.map": "/publicAwsABP/static/js/main.48768f8a.chunk.js.map",
+    "runtime-main.js": "/publicAwsABP/static/js/runtime-main.5ef0afdd.js",
+    "runtime-main.js.map": "/publicAwsABP/static/js/runtime-main.5ef0afdd.js.map",
+    "static/css/2.6cd54866.chunk.css": "/publicAwsABP/static/css/2.6cd54866.chunk.css",
+    "static/js/2.e6983829.chunk.js": "/publicAwsABP/static/js/2.e6983829.chunk.js",
+    "static/js/2.e6983829.chunk.js.map": "/publicAwsABP/static/js/2.e6983829.chunk.js.map",
+    "static/js/3.076c5caa.chunk.js": "/publicAwsABP/static/js/3.076c5caa.chunk.js",
+    "static/js/3.076c5caa.chunk.js.map": "/publicAwsABP/static/js/3.076c5caa.chunk.js.map",
+    "index.html": "/publicAwsABP/index.html",
+    "static/css/2.6cd54866.chunk.css.map": "/publicAwsABP/static/css/2.6cd54866.chunk.css.map",
+    "static/css/main.dbc80b53.chunk.css.map": "/publicAwsABP/static/css/main.dbc80b53.chunk.css.map",
+    "static/js/2.e6983829.chunk.js.LICENSE.txt": "/publicAwsABP/static/js/2.e6983829.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.5ef0afdd.js",
+    "static/css/2.6cd54866.chunk.css",
+    "static/js/2.e6983829.chunk.js",
+    "static/css/main.dbc80b53.chunk.css",
+    "static/js/main.48768f8a.chunk.js"
+  ]
+}
