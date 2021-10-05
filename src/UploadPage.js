@@ -7,9 +7,12 @@ import Myprogress from './progress'
 import ImageGallery from 'react-image-gallery';
 //import styles from '@react-image-gallery/styles/css/image-gallery.css'; 
 import {UserContext, servers} from './UserContext';
+import ready from './resources/ready.jpg';
 
 const templateTypeOptions = ['Background', 'Layout', 'Foreground'];
 const categoryOptions = ['Default', 'Simple', 'Human', 'Car', 'Cat'];
+
+
 
 // http://localhost:62557/
 // http://ec2-3-35-207-83.ap-northeast-2.compute.amazonaws.com/
@@ -30,8 +33,8 @@ export default class UploadPage extends React.Component
       selectCategory: 'Simple',
       thumbnailImages: [ 
         {
-            original: 'https://layoutdesigner-thumbnail-bucket.s3.ap-northeast-2.amazonaws.com/Resources/ready.jpg',
-            thumbnail: 'https://layoutdesigner-thumbnail-bucket.s3.ap-northeast-2.amazonaws.com/Resources/ready.jpg',
+            original: ready,
+            thumbnail: ready,
           }           
       ]
     };

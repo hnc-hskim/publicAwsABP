@@ -8,6 +8,7 @@ import Myprogress from './progress'
 import ImageGallery from 'react-image-gallery';
 //import styles from '@react-image-gallery/styles/css/image-gallery.css';  
 import {UserContext, servers} from './UserContext';
+import ready from './resources/ready.jpg';
 
 export default class SearchPage extends React.Component 
 {   
@@ -25,14 +26,14 @@ export default class SearchPage extends React.Component
       selectKeywordType: '',
       thumbnailImages: [ 
         {
-            original: 'https://layoutdesigner-thumbnail-bucket.s3.ap-northeast-2.amazonaws.com/Resources/ready.jpg',
-            thumbnail: 'https://layoutdesigner-thumbnail-bucket.s3.ap-northeast-2.amazonaws.com/Resources/ready.jpg',
+            original: ready,
+            thumbnail: ready,
           }           
       ],
       searchthumbnailImages: [ 
         {
-            original: 'https://layoutdesigner-thumbnail-bucket.s3.ap-northeast-2.amazonaws.com/Resources/ready.jpg',
-            thumbnail: 'https://layoutdesigner-thumbnail-bucket.s3.ap-northeast-2.amazonaws.com/Resources/ready.jpg',
+            original: ready,
+            thumbnail: ready,
           }           
       ],
       recognitionResults: [ 
