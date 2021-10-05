@@ -7,6 +7,19 @@ import Myprogress from './progress'
 import ImageGallery from 'react-image-gallery'; 
 import {UserContext, servers} from './UserContext'; 
 
+import slide1 from './resources/slide1.JPG'
+import slide2 from './resources/slide2.JPG'
+import slide3 from './resources/slide3.JPG'
+import slide4 from './resources/slide4.JPG'
+import slide5 from './resources/slide5.JPG'
+import slide6 from './resources/slide6.JPG'
+import slide7 from './resources/slide7.JPG'
+import slide8 from './resources/slide8.JPG'
+import slide9 from './resources/slide9.JPG'
+import slide10 from './resources/slide10.JPG'
+import slide11 from './resources/slide11.JPG'
+import slide12 from './resources/slide12.JPG'
+
 export default class demo extends React.Component { 
 
     constructor(props) {
@@ -15,53 +28,53 @@ export default class demo extends React.Component {
         this.state = {
            thumbnailImages: [ 
             {
-                original: 'https://github.com/hnc-hskim/publicAwsABP/blob/512187804aa3954c5ba5d0d2e8030987db665adf/resources/slide1.JPG',
-                thumbnail: 'https://github.com/hnc-hskim/publicAwsABP/blob/512187804aa3954c5ba5d0d2e8030987db665adf/resources/slide1.JPG',
-            }, 
-            {
-                original: 'https://github.com/hnc-hskim/publicAwsABP/blob/512187804aa3954c5ba5d0d2e8030987db665adf/resources/slide2.JPG',
-                thumbnail: 'https://github.com/hnc-hskim/publicAwsABP/blob/512187804aa3954c5ba5d0d2e8030987db665adf/resources/slide2.JPG',
+                original: slide1,
+                thumbnail: slide1
             },
             {
-                original: 'https://github.com/hnc-hskim/publicAwsABP/blob/512187804aa3954c5ba5d0d2e8030987db665adf/resources/slide3.JPG',
-                thumbnail: 'https://github.com/hnc-hskim/publicAwsABP/blob/512187804aa3954c5ba5d0d2e8030987db665adf/resources/slide3.JPG',
+                original: slide2,
+                thumbnail: slide2
             },
             {
-                original: 'https://github.com/hnc-hskim/publicAwsABP/blob/512187804aa3954c5ba5d0d2e8030987db665adf/resources/slide4.JPG',
-                thumbnail: 'https://github.com/hnc-hskim/publicAwsABP/blob/512187804aa3954c5ba5d0d2e8030987db665adf/resources/slide4.JPG',
+                original: slide3,
+                thumbnail: slide3
             },
             {
-                original: 'https://github.com/hnc-hskim/publicAwsABP/blob/512187804aa3954c5ba5d0d2e8030987db665adf/resources/slide5.JPG',
-                thumbnail: 'https://github.com/hnc-hskim/publicAwsABP/blob/512187804aa3954c5ba5d0d2e8030987db665adf/resources/slide5.JPG',
+                original: slide4,
+                thumbnail: slide4
             },
             {
-                original: 'https://github.com/hnc-hskim/publicAwsABP/blob/512187804aa3954c5ba5d0d2e8030987db665adf/resources/slide6.JPG',
-                thumbnail: 'https://github.com/hnc-hskim/publicAwsABP/blob/512187804aa3954c5ba5d0d2e8030987db665adf/resources/slide6.JPG',
+                original: slide5,
+                thumbnail: slide5
             },
             {
-                original: 'https://github.com/hnc-hskim/publicAwsABP/blob/512187804aa3954c5ba5d0d2e8030987db665adf/resources/slide7.JPG',
-                thumbnail: 'https://github.com/hnc-hskim/publicAwsABP/blob/512187804aa3954c5ba5d0d2e8030987db665adf/resources/slide7.JPG',
+                original: slide6,
+                thumbnail: slide6
             },
             {
-                original: 'https://github.com/hnc-hskim/publicAwsABP/blob/512187804aa3954c5ba5d0d2e8030987db665adf/resources/slide8.JPG',
-                thumbnail: 'https://github.com/hnc-hskim/publicAwsABP/blob/512187804aa3954c5ba5d0d2e8030987db665adf/resources/slide8.JPG',
+                original: slide7,
+                thumbnail: slide7
             },
             {
-                original: 'https://github.com/hnc-hskim/publicAwsABP/blob/512187804aa3954c5ba5d0d2e8030987db665adf/resources/slide9.JPG',
-                thumbnail: 'https://github.com/hnc-hskim/publicAwsABP/blob/512187804aa3954c5ba5d0d2e8030987db665adf/resources/slide9.JPG',
+                original: slide8,
+                thumbnail: slide8
             },
             {
-                original: 'https://github.com/hnc-hskim/publicAwsABP/blob/512187804aa3954c5ba5d0d2e8030987db665adf/resources/slide10.JPG',
-                thumbnail: 'https://github.com/hnc-hskim/publicAwsABP/blob/512187804aa3954c5ba5d0d2e8030987db665adf/resources/slide10.JPG',
+                original: slide9,
+                thumbnail: slide9
             },
             {
-                original: 'https://github.com/hnc-hskim/publicAwsABP/blob/512187804aa3954c5ba5d0d2e8030987db665adf/resources/slide11.JPG',
-                thumbnail: 'https://github.com/hnc-hskim/publicAwsABP/blob/512187804aa3954c5ba5d0d2e8030987db665adf/resources/slide11.JPG',
+                original: slide10,
+                thumbnail: slide10
             },
             {
-                original: 'https://github.com/hnc-hskim/publicAwsABP/blob/512187804aa3954c5ba5d0d2e8030987db665adf/resources/slide12.JPG',
-                thumbnail: 'https://github.com/hnc-hskim/publicAwsABP/blob/512187804aa3954c5ba5d0d2e8030987db665adf/resources/slide12.JPG',
-            },        
+                original: slide11,
+                thumbnail: slide11
+            },
+            {
+                original: slide12,
+                thumbnail: slide12
+            },
           ]
         };
     }
@@ -71,7 +84,7 @@ export default class demo extends React.Component {
 
     return (
         <div> 
-            <ImageGallery items={thumbnailImages} additionalClass={styles.img} />      
+            <ImageGallery items={thumbnailImages} additionalClass={styles.img}/>      
         </div> 
       );
     }
